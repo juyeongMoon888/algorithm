@@ -9,6 +9,8 @@ public class Main {
         
         for (int i = 0; i < test; i++) {
             int N = Integer.parseInt(br.readLine().trim()); // 3
+            
+            // 경우의 수 
             Map<String, Integer> closet = new HashMap<>();
             
             for (int j = 0; j < N; j++) {
